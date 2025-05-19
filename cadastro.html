@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styleLoginCadastro.css" />
+</head>
+<body>
+    <div id="loginTela">
+        <h1 id="loginTitulo">Cadastre-se</h1>
+
+        <div class="linhaLogin">
+            <p class="reqLogin">Nome:</p>
+            <input type="text" id="nome" class="loginInput" required />
+        </div>
+
+        <div class="linhaLogin">
+            <p class="reqLogin">Sobrenome:</p>
+            <input type="text" id="sobrenome" class="loginInput" required />
+        </div>
+
+        <div class="linhaLogin">
+            <p class="reqLogin">Email:</p>
+            <input type="email" id="email" class="loginInput" required />
+        </div>
+
+        <div class="linhaLogin">
+            <p class="reqLogin">Senha:</p>
+            <input type="password" id="senha" class="loginInput" required />
+        </div>
+
+        <button type="submit" id="cadastrarBtn">Cadastrar</button>
+
+        <p id="msg"></p>
+
+        <p id="temConta">
+            <a href="login.html">Já possui uma conta?</a>
+        </p>
+    </div>
+
+    <script src="scriptCadastro.js"></script>
+</body>
+</html>

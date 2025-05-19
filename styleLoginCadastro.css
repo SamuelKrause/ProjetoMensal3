@@ -1,0 +1,80 @@
+body {
+    background-color: #202020;
+    background-image: url(fundofolhas.png);
+    background-blend-mode: overlay;
+    padding: 125px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginTela {
+    width: 500px;
+    background-color: rgba(20, 80, 40, 0.7);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+#loginTitulo {
+    margin-bottom: 40px;
+}
+
+.linhaLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reqLogin {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: -100px;
+    text-align: right;
+    width: 100px; 
+    white-space: nowrap;
+}
+
+.loginInput {
+    background-color: rgb(193, 223, 193);
+    border: none;
+    border-radius: 10px;
+    height: 28px;
+    width: 250px;
+    padding: 5px 10px;
+}
+
+#cadastrarBtn {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 30px;
+    background-color: #2d864a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cadastrarBtn:hover {
+    background-color: #3fa25d;
+}
+
+#msg {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#temConta, #naoTemConta {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#temConta a, #naoTemConta a {
+  color: #c2f0c2;
+  text-decoration: underline;
+  cursor: pointer;
+}
