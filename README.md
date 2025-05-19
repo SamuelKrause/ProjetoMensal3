@@ -1,5 +1,5 @@
 
-* Integrantes
+# Integrantes
 
 - Samuel Krause
 
@@ -7,13 +7,13 @@
 
 #####
 
-* Entrega do projeto mensal 3, visando:
+# Entrega do projeto mensal 3, visando:
 
 - Entregar corretamente o projeto, completo e funcional, de acordo com os devidos requisitos.
 
 #####
 
-* Ferramentas Utilizadas
+# Ferramentas Utilizadas
 
 - Figma – Prototipação e design da interface
 
@@ -25,7 +25,7 @@
 
 #####
 
-* Funcionalidades
+# Funcionalidades
 
 - Sistema de login com armazenamento local por email
 
@@ -41,13 +41,13 @@
 
 #####
 
-* Armazenamento
+# Armazenamento
 
 - Todos os dados são salvos no localStorage do navegador, vinculados ao email do usuário logado, garantindo que cada um tenha seu próprio conjunto de quadros e tarefas.
 
 #####
 
-* Como usar
+# Como usar
 
 - Acesse a página de login e insira um email para iniciar.
 
